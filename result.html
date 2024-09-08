@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epilepsy</title>
+
+    <link rel="icon" href="static/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/static/styles.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Parkinson Disease Detection</h1>
+    </header>
+
+    <section class="section2">
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <div class="fileselect">
+                <div class="div1">
+                    <label class="label" for="myfile">RESULTS</label>
+                </div>
+                <div>
+                    <div class="patient">Patient is: {{result}}</div>
+                    <div class="patient">Confidence: {{confidence}} %</div>
+                </div>
+
+            </div>
+            <div class="button">
+                <button class="btn2">
+                    <a class="lets"  href="http://127.0.0.1:5000/">Let's Check Again</a>
+                </button>    
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
