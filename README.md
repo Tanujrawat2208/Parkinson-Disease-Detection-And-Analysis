@@ -1,1 +1,1 @@
-# Parkinson-s-Disease-Detection-and-Analysis-Using-Machine-Learning-
+# Parkinson-Disease-Detection-and-Analysis-Using-Machine-Learning-
